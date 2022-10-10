@@ -8,7 +8,7 @@ COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt 
 #-r means we're giving a package
 
-WORKDIR /notebooks
+WORKDIR /lab2
 #naming the larger folder we're working in
 
 EXPOSE 8888
